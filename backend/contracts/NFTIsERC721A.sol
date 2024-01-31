@@ -43,7 +43,7 @@ contract NFTIsERC721A is ERC721A, ERC721AQueryable, Ownable{
     uint256 private constant PRICE_WHITELIST_MINT = 0.002 ether; // prix d'un NFT durant la whitelist
     uint256 private constant PRICE_PUBLIC_MINT = 0.003 ether; // prix d'un NFT durant la public sale
 
-    uint256 public saleStartTime =  1702410764; // (timestamp) date à laquelle commence la public sale
+    uint256 public saleStartTime =  1706628904; // (timestamp) date à laquelle commence la public sale
 
     bytes32 public merkleRoot;
 

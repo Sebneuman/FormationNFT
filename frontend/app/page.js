@@ -5,7 +5,6 @@ import { readContract } from "@wagmi/core";
 import { useState, useEffect } from "react";
 import { abi, contractAddress, maxWhitelist, maxPublic } from "@/constants";
 import { Spinner, Flex, Text } from "@chakra-ui/react";
-//import WhitelistMint from "@/components/WhitelistMint";
 
 export default function Home() {
 
